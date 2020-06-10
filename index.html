@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CineFreak</title>
+        <script src="index.js"></script>
+        <style>
+            body{
+                background-color:black;
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .btn{
+                border: 2px;
+                margin: 20px;
+                padding: 24px;
+                width: 220px;
+                font-family: "montserrat",sans-serif;
+                text-transform: uppercase;
+                border-radius: 6px;
+                cursor: pointer;
+                color:Black;
+                background-size: 200%;
+                transition: 0.6s;
+            }
+            .btn1{
+                background-image: linear-gradient(to left,white,#ABB2B9,#273746,black)
+            }
+            .btn:hover{
+                background-position: right;
+            }
+            #title{
+                color:white;
+                text-align:center;
+                font-family: "montserrat",sans-serif;
+                text-transform: ;
+            }
+            #lgn{
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                display: none;  
+            }
+            #uname , #psw{
+                margin: 20px;
+                padding: 24px 24px;
+                width: 220px;
+                font-family: "montserrat",sans-serif;
+                text-transform: uppercase;
+                border-radius: 6px;
+                border-color: black();
+            }
+            #login,#signup{
+                border-radius: 50px;
+                 margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+            #sgnp{
+                top: 50%
+            }
+            #sgn{
+                display:none;
+                position: absolute;
+                left: 50%;
+                top: 60%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">CineFreak</h1>
+        <div class="container" id="lgnm">
+            <button class="btn btn1" onclick="lgnm()"><b>Login</b></button>
+        </div>
+        <div id="lgn">
+            <input type="text" placeholder="Enter Email" name="email" required><br><br>
+            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+            <button class="btn btn1" id="login">login</button>
+        </div>
+        <div class="container" id="sgnp">
+            <button class="btn btn1"  onclick="sgnp()"><b>signup</b></button>
+        </div>
+        <div id="sgn">
+            <input type="text" placeholder="Enter your name" name="name" required><br><br>
+            <input type="text" placeholder="Enter Email" name="email" required><br><br>
+            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+            <button class="btn btn1" id="signup">signup</button>
+        </div>
+    </body>
+</html>
