@@ -1,4 +1,4 @@
-
+//js file
 function lgnm(){
 	document.getElementById("lgnm").style.display = "none";
     document.getElementById("lgn").style.display = "block";
