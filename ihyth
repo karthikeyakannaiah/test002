@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
+
+    h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    p {
+
+        padding-left: 35px;
+        display: inline-block;
+        margin: 0px;
+        padding-right: 449;
+    }
+
+    .about {
+        display: inline-block;
+       font-size: larger;
+    }
+    img {
+        width: 387px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        display: inline-block;
+        float:  right;
+       
+    }
+    body{
+        
+        background-image: url(https://www.nxdirectatl.com/wp-content/uploads/2017/02/bg-gray.png);
+       
+    }
+   .links{
+     
+       display:inline-block;
+      
+   }
+    
+</style>
+
+<body>
+    <div class="" id="header" >
+        <h1>welcome to my website</h1>
+        <p class="p1">Hi welcome to my website,And comming to my name ,my name is ihyth and iam from mogalthur and i
+            born at bhimavaram and grown in mogalthur</p>
+        <h2>about me</h2>
+        <img src="myphoto.png.png" alt="my photo" >
+        <ul class="about">
+            <li><em>NAME<em>:<strong>Ananthapalli.Ihyth</strong> </li>
+            <li><em>Born on</em>:<strong>09/06/2002(sunday)</strong></li>
+            <li><em>Born At</em>:<strong>BHIMAVARAM</strong></li>
+            <li><em>Nationality</em>:<strong>INDIAN</strong></li>
+            <li><em>Occupation</em>:<strong>Student</strong></li>
+            <li><em>scholling</em>:<strong>sri chaitanta techno school(narsapur)</strong></li>
+            <li><em>Junior college </em>:<strong>sri chaitanya junior college(pallakollu)</strong></li>
+            <li><em>under graduate</em>:<strong>jain university(banglore)</strong></li>
+            <li><em>parents</em>:<strong>
+                    <dd>father-rajesh</dd>
+                    <dd>mother-srilakshmi</dd>
+                </strong></li>
+            <li><em>siblings</em>:<strong>praneeth</strong></li>
+            <li><em>strenghts</em>:<strong>coding in c,digitalmarketing,html,css,python,javascript,</strong></li>
+            <li><em>weakness</em>:<strong>Asking any questions in my strenghts</strong></li>
+        </ul> <br>
+        <div class="links">
+            <a href="https://www.instagram.com/ihyth_2002/saved/" target="_blank">follow me on instagram</a> <br>
+            <a href="https://m.facebook.com/?_rdr" target="_blank">follow me on fb</a> <br>
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank">follow me on linkedin</a>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
