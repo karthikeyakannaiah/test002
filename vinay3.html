@@ -1,0 +1,164 @@
+!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <style>
+      .headcenter{text-align:center}
+      *{
+          box-sizing:border-box;
+      }
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .box{
+          background-color: black;
+          color: white;
+          margin: 20px;
+          padding: 20px;
+      }
+      .box1{
+          background-color: tomato;
+          color: white;
+          margin: 20px;
+          padding: 20px;
+      }
+
+     
+          /* Style the header */
+          header {
+          background-color: #666;
+          padding: 30px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+          float: left;
+          width: 30%;
+          height: 300px; /* only for demonstration, should be removed */
+          background: #ccc;
+          padding: 20px;
+      }
+
+          /* Style the list inside the menu */
+          nav ul {
+              list-style-type: none;
+              padding: 0;
+          }
+
+      article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height: 300px; /* only for demonstration, should be removed */
+      }
+
+      /* Clear floats after the columns */
+      section:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+          nav, article {
+              width: 100%;
+              height: auto;
+          }
+      }
+  </style>
+ 
+  <head>
+      <title>Free Chaitanya-Parayana Educational Institutions.</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" herf="ass3.css">
+  </head>
+  <body style="background-color:aqua;">
+      <nav>
+          <label class="logo">FREE CHAITANYA PARAYANA</label> 
+          <ul>
+              <li><a herf="#">Home</a></li>
+              <li><a herf="#">About us</a></li>
+              <li><a herf="#">Any queries</a></li>
+              <li><a herf="#">Help</a></li>
+              <li><a herf="#">Contact us</a></li>
+              <li><a herf="#">Feedback</a></li>
+          </ul>
+      </nav>
+          <img class="headcenter" src="data:image/png;base64,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" width="500" height="600">
+          <h3 style="background-color:green">Are you worried about where to join your ward at an high level Educational Institution ? Then dont do any late. Come and blindly join your ward at :</h3>
+          <h1 class="headcenter" style="color:firebrick">FREE CHAITANYA-PARAYANA</h1>
+          <h4 style="background-color:lightslategray">How we are going to teach the students.</h4>
+          <p>Basically we follow an odd time-table as compared to the other schools.Here we try to make your ward to study. Not only to study, we always have a common schedule across the state in our Institutions. We also conduct weekly assesments which a student can develop himself from others. We also gives his ranking according to the class level, District level, State level. We are sure that the object orientation programme which has been implemented in our Institution is not available in any other institution. </p>
+          <h4 style="background-color:lightslategray">Why Object orientation programme.</h4>
+          <p>As you know, any student after completion of their intermediate they are supposed to appear for enterance exams like JEE-mains,NEET,EAMCET and other University Examinations. In that way it is better to have Object orientation programe during their school level. In such a way we are implemeting Object oriented cources from their schooling itself. And we also implementing another programme called as ERROR LIST. In this programme we are supposed to teach the students mistakes. While conducting the weekly asesmennts we always find different types of mistakes from different students. But the particular student should notice what mistake he had done. He need to correct his mistake. So we give ERROR LIST to every student according to their weekly performence. And we are here to help each and every student to correct their mistakes. So in this way they will also able to correct their mistakes and they also can notice where they are weak in specific topics.</p>
+          <h4 style="background-color:lightslategray">Have a look about our institution :</h4>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eNJC-VX-IN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <header>
+              <h2>FREE CHAITANYA-PARAYANA</h2>
+          </header>
+
+          <section>
+              <h5>COURCES OFFERED</h5>
+              <nav>
+                  <ul>
+                      <li>EAMCET</li>
+                      <li>EAMCET CO-SPARK</li>
+                      <li>EAMCET STAR-SPARK</li>
+                      <li>EAMCET LEO-SPARK</li>
+                  </ul>
+                  <ul>
+                      <li>MAINS</li>
+                      <li>MAINS CO-SPARK</li>
+                      <li>MAINS STAR-SPARK</li>
+                      <li>MAINS LEO-SPARK</li>
+                  </ul>
+                  <ul>
+                      <li>IIT-P120</li>
+                      <li>IIT-P120(2)</li>
+                      <li>IIT CO-SPARK</li>
+                      <li>IIT STAR-SPARK</li>
+                      <li>IIT LEO-SPARK</li>
+                  </ul>
+              </nav>
+              <article>
+                  <h1>About our ranks :</h1>
+                  <p> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   in JEE-MAINS open categeroy</p>
+                  <p>2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 in EAMCET open category</p>
+                  <p>10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0.............................................................(12,30,300 members) in IPE 2020</p>
+                  <p>Many other diamonds are still pursuing. This is not our track record. Its is all time record record record.</p>
+              </article>
+          </section>
+          <footer>
+              <p>Our main agenda is to continue our class while we are facing our lockdown. We dont know corona.But we assure that our students together can make a virus powerful than corona.</p>
+          </footer>
+          <p>Click below to know about Fee-Regulations.</p>
+          <button>Fee-Regulations</button>
+          <p>Click below to know about Rules and Regulations.</p>
+          <button>RULES</button>
+          <p>Click below for admission form.</p>
+          <button>ADDMISSION FORM</button>
+          <p>Click below to approach our faculties.</p>
+          <button>APROACH FACULTIES</button>
+          <h4 style="background-color:lightslategray">How we are excited to release our results :</h4>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tQmoYNPxqiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="box">
+              <p>IF ANY QUERIES, GO AND MEET YOUR LOCAL PRINCIPAL.</p>
+          </div>
+          <div class="box1">
+              <h1 class="headcenter">THANK YOU</h1>
+          </div>
+  </body>
+</html>
