@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <title>skool</title>
+</head>
+<style>
+    body {
+        /* background-image: url(https://image.shutterstock.com/z/stock-photo-school-building-exterior-view-of-school-525554962.jpg); */
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: white;
+    }
+
+    img {
+        position: relative;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 15px;
+        text-align: center;
+
+
+    }
+
+    .left img {
+        width: 110px;
+    }
+
+    .left:hover {
+        cursor: not-allowed;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 33%;
+        margin: 15px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 32px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+      
+    }
+
+    .navbar li {
+        display: inline-block;
+        
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 34px 23px;
+        
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(50, 91, 206);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: black;
+        background-color: transparent;
+        cursor: pointer;
+        padding: 5px 19px;
+        border-radius: 9px;
+        font-size: 15px;
+
+    }
+
+    .btn:hover {
+        background-color: black;
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .container {
+        /* border: 2px solid red; */
+        margin: 68px 88px;
+        padding: 7px 11px;
+        display: inline-block;
+    }
+    .container img{
+        width: 200%;
+    }
+
+    .admissions {
+        position: absolute;
+        right: 217px;
+        top: 303px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        font-size: larger;
+        padding: 0px;
+        background-color: white;
+
+    }
+
+    .input {
+        position: absolute;
+        right: 109px;
+        top: 350px;
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        font-size: larger;
+        padding: 3px;
+        color: rgb(69, 63, 150);
+
+
+    }
+
+    p {
+        display: block;
+        border: 2px solid green;
+        padding-right: 25px;
+        margin: 20px;
+        padding-left: 12px;
+        background-image: url(https://tse1.mm.bing.net/th?id=OIP.RavOziNXggIQnMBkugpr4AHaEL&pid=Api&P=0&w=293&h=166);
+        background-size: cover;
+    }
+    
+
+    .our {
+        text-decoration: underline;
+        color: red;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://www.iskooldenim.com/wp-content/uploads/2017/03/I-SKOOL-logo-2016-2017-4th-edition--900x900.jpg"
+                alt="slool">
+
+
+        </div>
+
+
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">home</a></li>
+                <li> <a href="#">about us</a></li>
+                <li> <a href="#">admissions</a></li>
+                <li> <a href="#">contact us</a></li>
+
+            </ul>
+        </div>
+
+
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.SgOcdiQ9fViq8Q1csnI8jgHaDd&pid=Api&P=0&w=352&h=166" alt="">
+    </div>
+    <div class="form">
+        <form action="ihyth.php">
+            <div class="admissions">
+                ADMISSIONS
+            </div>
+            <div class="input">
+                <input type="text" placeholder="STUDENT NAME"> <br>
+                <input type="text" placeholder="STUDENT AGE"><br>
+                <input type="text" placeholder="STUDENT CLASS"><br>
+                <input type="text" placeholder="FATHER NAME"><br>
+                <input type="text" placeholder="MOTHER NAME"><br>
+                <input type="text" placeholder="PHONE NUMBER"><br>
+                <input type="text" placeholder="ADDRESS"><br>
+
+                gender:male <input type="radio" name="mygender"> female <input type="radio" name="mygender"> other
+                <input type="radio" name="mygender">
+                <input type="button" value="submit now">
+
+
+            </div>
+        </form>
+    </div>
+    <div><br><br><br>
+
+        <p> <strong class="our">OUR JOURNEY</strong> <br>
+            i skool first surfaced on the academic horizon in the year 2015 and within a span of 5 years went on
+            to become Asia's largest educational group. The past two and a half decades witnessed i skool
+            introducing novel academic programmes that have helped students enter the nation's premier engineering and
+            medical colleges. The manner in which the Group has transformed the outlook towards education has been
+            nothing short of exemplary.</p>
+        <p>
+            <strong class="our">MISSION</strong> <br>
+            Our goal is to focus on the holistic development of each child, and to give them a competitive edge with the
+            help of an extensive curriculum and dynamic teaching methodologies.
+
+            <bold>Morals</bold> : The ability to discriminate between right and wrong<br>
+            <bold>Values </bold> : The unique beliefs and feelings of an individual<br>
+            <bold> Ethics</bold> : The principles that define everyday behaviour<br>
+            <bold> Problem-solving Techniques</bold> : The skill to resolve difficult issues
+            Positive Attitude : The highest indicator of a healthy personality
+        </p>
+        <p>
+            <strong class="our">VISION</strong> <br>
+
+            We endeavour to be the right mentor for IIT-JEE aspirants, while also helping them develop a global
+            perspective, with a keen interest in community life. We prepare students for competitive exams by providing
+            in-depth knowledge of various subjects at an intermediate level.
+        </p>
+        <p>
+            <strong class="our">PERSONALITY DEVELOPMENT</strong> <br>
+            A well-rounded personality is built on the back of all-round grooming. Being the future citizens of a
+            diverse country, it is essential that these children uphold our rich cultural values. We endeavour to
+            cultivate these values within our global learners through cultural meets, art competitions, music and dance
+            competitions, and much more. At i skool, every child is given a platform to hone and enhance their
+            talents, pursuing them simultaneously with academics.
+        </p>
+        <p>
+            <strong class="our"> DIGITAL LEARNING</strong> <br>
+            To usher in a new era of world-class education, i skool has adopted a technology-driven approach to
+            studies. The schools have replaced textbooks with trendy tabs for students from class five to seven. This
+            learning technique not only makes children adept in the use of technology but also reduce the load of study
+            materials to be carried every day.
+        </p>
+    </div>
+</body>
+
+</html>
